@@ -1,0 +1,173 @@
+======================================================================
+APEXPLANET DATA ANALYTICS INTERNSHIP
+TASK 4 — HYPOTHESIS TESTING
+STATISTICAL TEST RESULTS
+======================================================================
+
+1. BUSINESS QUESTION
+----------------------------------------------------------------------
+
+Do Electronics transactions have a significantly different
+average transaction sales value compared with Non-Electronics
+transactions?
+
+
+2. HYPOTHESES
+----------------------------------------------------------------------
+
+Null Hypothesis (H0):
+There is no significant difference in the mean transaction
+sales between Electronics and Non-Electronics transactions.
+
+Alternative Hypothesis (H1):
+There is a significant difference in the mean transaction
+sales between Electronics and Non-Electronics transactions.
+
+
+3. STATISTICAL TEST
+----------------------------------------------------------------------
+
+Test:
+Welch's Independent Two-Sample t-test
+
+Significance Level (Alpha):
+0.05
+
+
+4. DATA VALIDATION
+----------------------------------------------------------------------
+
+Dataset Size:
+1000 rows × 12 columns
+
+Missing Values:
+0
+
+Complete Duplicate Rows:
+0
+
+
+5. GROUP INFORMATION
+----------------------------------------------------------------------
+
+Electronics Transactions:
+354
+
+Non-Electronics Transactions:
+646
+
+
+6. DESCRIPTIVE STATISTICS
+----------------------------------------------------------------------
+
+Electronics:
+Mean Sales: ₹143,442.32
+Median Sales: ₹114,521.40
+Standard Deviation: ₹117,601.79
+
+Non-Electronics:
+Mean Sales: ₹137,183.99
+Median Sales: ₹106,092.24
+Standard Deviation: ₹112,165.38
+
+
+7. WELCH'S T-TEST RESULT
+----------------------------------------------------------------------
+
+T-Statistic:
+0.8179
+
+P-Value:
+0.413674
+
+Significance Level:
+0.05
+
+
+8. HYPOTHESIS DECISION
+----------------------------------------------------------------------
+
+Decision:
+Fail to Reject H0
+
+Reason:
+The p-value (0.413674) is greater than the significance
+level of 0.05.
+
+
+9. MEAN DIFFERENCE
+----------------------------------------------------------------------
+
+Electronics Mean:
+₹143,442.32
+
+Non-Electronics Mean:
+₹137,183.99
+
+Mean Difference:
+₹6,258.33
+
+
+10. 95% CONFIDENCE INTERVAL
+----------------------------------------------------------------------
+
+95% Confidence Interval for Mean Difference:
+
+Lower Bound:
+₹-8,764.16
+
+Upper Bound:
+₹21,280.82
+
+Interpretation:
+The confidence interval includes zero, indicating that the
+observed difference in mean transaction sales is not
+statistically significant.
+
+
+11. EFFECT SIZE
+----------------------------------------------------------------------
+
+Cohen's d:
+0.0548
+
+Effect Size:
+Negligible
+
+
+12. FINAL STATISTICAL CONCLUSION
+----------------------------------------------------------------------
+
+There is no statistically significant difference in mean
+transaction sales between Electronics and Non-Electronics
+transactions.
+
+Although Electronics transactions have a higher average
+sales value by ₹6,258.33, the observed difference is not
+statistically significant at the 5% significance level.
+
+The effect size is negligible (Cohen's d = 0.0548).
+
+Therefore, the null hypothesis is not rejected.
+
+
+13. BUSINESS INTERPRETATION
+----------------------------------------------------------------------
+
+Electronics is an important revenue-generating category,
+but the higher average transaction value observed in
+Electronics is not statistically different from
+Non-Electronics transactions in this dataset.
+
+Therefore, business decisions should not assume that
+Electronics transactions inherently generate higher
+transaction values based only on this sample.
+
+Other factors such as product mix, customer segment,
+quantity purchased, city, and pricing should also be
+considered when developing category-level strategies.
+
+
+======================================================================
+END OF STATISTICAL TEST RESULTS
+======================================================================
